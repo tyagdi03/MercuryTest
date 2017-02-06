@@ -68,6 +68,8 @@ public class BillingPage {
 	}
 	
 	public void billingDetails(){
+		
+		System.out.println("Hi this a git project");
 		firstName.sendKeys(ReadingExcel.hm.get("firstName"));
 		lastName.sendKeys(ReadingExcel.hm.get("lastName"));
 System.out.println("beforeMeal");
